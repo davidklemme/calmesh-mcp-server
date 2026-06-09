@@ -1,6 +1,6 @@
 {
   "name": "@calmesh/mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for CalMesh calendar infrastructure",
   "type": "module",
   "keywords": [
@@ -27,7 +27,10 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
